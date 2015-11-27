@@ -1,0 +1,92 @@
+<html>
+
+<head>
+<title>
+ Welcome to L's
+</title>
+</head>
+
+<body style= "background-color:#bde2fd" >
+<font face="Consolas" >
+
+<table border="1">
+<tr valign="top">
+
+<td style="test-align:top;width:150px;background-color:#bde2fd;">
+
+<p>Here are some links you may be interested in. 
+<p><a href="CV.html">CV</a>
+</br><a href="http://ansrlab.cse.cuhk.edu.hk/software/ncfs">NCFS</a>
+</br><a href="ncfs_related_paper.tar.gz">A Package of Papers Related to NCFS</a>
+</td>
+
+<td style="test-align:top;">
+<h2>About LI Runhui</h2>
+
+<img src="rhl.jpg" align="right" vspace="1" hspace="45">
+
+<p>I received my BEng degree in Computer Science from School
+of Computer Science and Technology, University of Science and Technology
+of China(USTC). I am now a PHD candidate in the Department of Computer Science
+and Engineering, Chinese University of Hong Kong. Currently, I am a 
+member of Advanced Networking and System Research Laboratory. 
+
+<p>Now I am being supervised by <a href="http://www.cse.cuhk.edu.hk/~pclee">Prof. Patrick P.C. Lee</a> and 
+<a href="http://www.cse.cuhk.edu.hk/~cslui"> Prof. John C.S. Lui</a>.
+
+<p>When in USTC, I was supervised by <a href="http://en.nhpcc.ustc.edu.cn/Peoples_9/201107/t20110701_115017.html">Prof. Yinlong Xu</a>.
+
+<h2>Contacts</h2>
+<p>Email: <a href="mailto:lrhdiy@gmail.com">lrhdiy@gmail.com</a>
+<p>Address: Room 120, Ho Sin Hang Engineering Building,</br>
+         Chinese University of Hong Kong</br>
+         Sha Tin</br>
+         N.T.</br>
+         Hong Kong</br>
+
+<h2>Teaching Assistant</h2>
+2011~2012 1st term <a href="http://www.cse.cuhk.edu.hk/~csci3150">CSCI3150:Operating System</a></br>
+2011~2012 2nd term <a href="http://www.cse.cuhk.edu.hk/~csci4430">CSCI4430:Computer Network</a>
+2012~2013 1st term <a href="http://www.cse.cuhk.edu.hk/~csci3150">CSCI3150:Operating System</a></br>
+
+<h2>Courses</h2>
+<a href="http://www.cse.cuhk.edu.hk/~csci5470">CSCI5470:Computer and Network Security</a></br>
+CSCI5180:Data Mining</br>
+CSCI5350:Game Theory</br>
+CSCI5120:Advanced Topics in Distributed Database Systems</br>
+CSCI5070:Social Computing</br>
+CSCI5440:Theo. of Cryptography</br>
+
+<h2>Research Interest</h2>
+<p>Distributed file systems. 
+
+<h2>Honors and Awards</h2>
+<p>Postgraduate Studentship in CUHK 2011~Now</br>
+Excellent Thesis Award of Undergraduate Graduation Thesis of USTC 2011</br>
+Citigroup Scholarship 2010</br>
+Excellent Thesis Award of Undergraduate Student Research Project of USTC 2010</br>
+Excellent Student Scholarship of USTC 2009</br>
+Excellent Student Scholarship of USTC 2008</br>
+Excellent Freshman Scholarship of USTC 2007</br>
+
+<h2>Something More</h2>
+<p>Actually, besides doing research, I am always interested in making my life colorful. 
+<p>I am a huge sports fun and extremely love ball games (basketball,ping-pong and so on). Swimming and
+running are also my favorite. I always jogging in the afternoon along the beach near CUHK, it is 
+really an unforgetable experience. 
+<p>Also, I like movies, cartoons, electronic games. In one word, I like having fun. I extremely like
+those movies, cartoons and games which can bring a lot of impact on me. Say <em>Matrix</em>, 
+<em>OnePiece</em> and <em>Braid</em>. 
+</td>
+
+</tr>
+</table>
+
+<!-- Begin Motigo Webstats counter code -->
+<a id="mws4875457" href="http://webstats.motigo.com/">
+<img width="80" height="15" border="0" alt="Free counter and web stats" src="http://m1.webstats.motigo.com/n80x15.gif?id=AEpkwQTDOeO4XblcIIPvmAGtWdFA" /></a>
+<script src="http://m1.webstats.motigo.com/c.js?id=4875457&amp;lang=EN&amp;i=3" type="text/javascript"></script>
+<!-- End Motigo Webstats counter code -->
+
+</body>
+</html>

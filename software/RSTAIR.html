@@ -1,0 +1,101 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0048)http://ansrlab.cse.cuhk.edu.hk/software/fmsrdip/ -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>Relieving Both Storage and Recovery Burdens in Big Data Clusters with R-STAIR Codes </title>
+<style type="text/css">
+@charset "utf-8";
+body {
+	background-color: #87CEEB;
+}
+
+body, td, th {
+	color: #000;
+}
+
+h1, h2 {
+	font-family: Times New Roman, Times, serif;
+	color: #663300;
+}
+
+h3, h4, h5, h6 {
+	color: #996633;
+}
+
+a {
+  color: #336600;
+}
+</style></head>
+
+<body>
+
+<h1 align="center" class="h1style">
+Relieving Both Storage and Recovery Burdens in Big Data Clusters with R-STAIR Codes
+</h1>
+
+<h2>Introduction</h2>
+Storage clusters for managing immutable big data are susceptible to transient
+and permanent failures at both node and rack levels, and have increasingly
+employed erasure codes to achieve data availability.  However, most existing
+erasure codes not only storage-inefficiently use an entire rack of parity
+information to tolerate a partial rack of node failures, but also cause the
+recovery of the common single-node failures to consume a significant amount of
+oversubscribed cross-rack bandwidth. To relieve both storage and recovery
+burdens of erasure codes, we propose a new family of codes called
+\emph{recovery-oriented STAIR (R-STAIR)} codes, which not only provide
+storage-efficient fault tolerance for mixed node and rack failures, but also
+achieve rack-local recovery for the common single-node failures. We first
+provide a general construction for R-STAIR codes by augmenting the construction
+of the previously proposed STAIR codes, then demonstrate the usability of
+R-STAIR codes by implementing them in a practical Hadoop cluster, and finally
+assess the storage and performance properties of R-STAIR codes through
+extensive evaluation by analysis, testbed experiments, and simulations. Our
+evaluation results show that R-STAIR codes can significantly reduce both
+storage and recovery burdens of existing erasure codes.
+
+
+
+<p>
+</p>
+
+<!--h2>Publication</h2>
+
+<ul>
+<li>
+Runhui Li, Yuchong Hu, and Patrick P. C. Lee.<br>
+<b>"Enabling Efficient and Reliable Transition from Replication to Erasure
+    Coding for Clustered File Systems."</b><br>
+Proceedings of the 45th Annual IEEE/IFIP International Conference on
+Dependable Systems and Networks (DSN 2015) (Regular paper), Rio de Janeiro,
+Brazil, June 2015.<br> 
+<br>
+</li>
+</ul-->
+
+<h2>Download</h2>
+
+<ul>
+<li>Hadoop Release Version 0.1 (To appear)
+</li>
+</ul>
+
+<h2>People</h2>
+
+<p>
+RSTAIR code is developed by the 
+<a href="http://ansrlab.cse.cuhk.edu.hk/">Advanced Network and System Research Laboratory</a> 
+in the <a href="http://www.cse.cuhk.edu.hk/">Department of Computer Science and Engineering</a> 
+at the <a href="http://www.cuhk.edu.hk/">Chinese University of Hong Kong</a> (CUHK).
+</p>
+
+  <li>Runhui Li (PhD)</li>
+  <li>Mingqiang Li (former Postdoc)</li>
+  <li>Patrick P. C. Lee (Faculty)</li>
+
+<!--h2>License</h2>
+
+The source code of Encoding-Aware Replication is released under the GNU/GPL license. 
+-->
+
+</body>
+</html>

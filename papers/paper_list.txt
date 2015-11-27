@@ -1,0 +1,19 @@
+1.RACS: a case for cloud storage diversity
+2.Network information flow
+3.
+4.Network Coding for Distributed Storage Systems
+5.A Survey on Network Codes for Distributed Storage
+6.A Practical Study of Regenerating Codes for Peer-to-Peer Backup Systems
+7.
+8.
+9.Cooperative Recovery of Distributed Storage Systems from Multiple Losses with Network Coding
+10.Intel. Intelligent RAID 6 Theory Overview and Implementation
+11.A case for redundant arrays of inexpensive disks (RAID)
+12.Optimal Exact-Regenerating Codes for Distributed Storage at the MSR and MBR Points via a Product-Matrix Construction
+13.Explicit construction of optimal exact regenerating codes for distributed storage
+14.Internet small computer systems interface (iSCSI)
+15.Cooperative Regenerating Codes for Distributed Storage Systems
+16.Exact-repair MDS codes for distributed storage using interference alignment
+17.Exact regeneration codes for distributed storage repair using interference alignment
+18.
+19.Deterministic regenerating codes for distributed storage

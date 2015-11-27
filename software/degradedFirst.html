@@ -1,0 +1,108 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0048)http://ansrlab.cse.cuhk.edu.hk/software/fmsrdip/ -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title> Degraded-First Scheduling for MapReduce in Erasure-Coded Storage </title>
+<style type="text/css">
+@charset "utf-8";
+body {
+	background-color: #87CEEB;
+}
+
+body, td, th {
+	color: #000;
+}
+
+h1, h2 {
+	font-family: Times New Roman, Times, serif;
+	color: #663300;
+}
+
+h3, h4, h5, h6 {
+	color: #996633;
+}
+
+a {
+  color: #336600;
+}
+</style></head>
+
+<body>
+
+<h1 align="center" class="h1style">
+Degraded-First Task Scheduler for MapReduce in Erasure-Coded Storage
+</h1>
+
+<h2>Introduction</h2>
+
+<p>
+We have witnessed an increasing adoption of erasure coding in modern clustered
+storage systems to reduce the storage overhead of traditional 3-way
+replication.  However, it remains an open issue of how to customize the data
+analytic paradigm for erasure-coded storage, especially when the storage
+system operates in failure mode.  We propose degraded-first scheduling, a new
+MapReduce scheduling scheme that improves MapReduce performance in
+erasure-coded clustered storage systems in failure mode.  Its main idea is to 
+launch degraded tasks earlier so as to leverage the unused network resources. 
+We conduct mathematical analysis and discrete event simulation to show the
+performance gain of degraded-first scheduling over Hadoop's default
+locality-first scheduling.   We further implement degraded-first scheduling on
+Hadoop and conduct testbed experiments in a 13-node cluster.  We show that
+degraded-first scheduling reduces the MapReduce runtime of locality-first
+scheduling.
+</p>
+
+<h2>Publication</h2>
+
+<ul>
+<li>
+Runhui Li, Patrick P. C. Lee, Yuchong Hu<br>
+<b>"Degraded-First Scheduling for MapReduce in Erasure-Coded Storage"</b><br>
+Proceedings of the 44th Annual IEEE/IFIP International Conference on
+Dependable Systems and Networks (DSN 2014) (Regular paper), Atlanta, Georgia,
+June 2014.<br>
+<br>
+</li>
+</ul>
+
+<h2>Download</h2>
+
+<ul>
+<li>Version 0.1 (Mar, 2014)
+	<a href="df0.1.zip">degraded-first-task-scheduler-v0.1.zip</a> 
+</li>
+</ul>
+
+<h2>People</h2>
+
+<p>
+Degraded-first task scheduler is developed by the <a href="http://ansrlab.cse.cuhk.edu.hk/">Advanced Network
+and System Research Laboratory</a> in the 
+<a href="http://www.cse.cuhk.edu.hk/">Department of Computer Science and
+Engineering</a> at the 
+<a href="http://www.cuhk.edu.hk/">Chinese University of Hong Kong</a> (CUHK).
+</p>
+
+<b>Faculty</b>:
+<ul>
+  <li>Patrick P. C. Lee</li>
+</ul>
+<b>Post-doc</b>:
+<ul>
+  <li>Yuchong Hu</li>
+</ul>
+<b>Student</b>:
+<ul>
+  <li>Runhui Li (PhD)</li>
+</ul>
+
+<h2>License</h2>
+
+The source code of Degraded-first task scheduler is released under the GNU/GPL license. 
+
+<h2>Contacts</h2>
+
+<p>
+Please contact <a href="http://www.cse.cuhk.edu.hk/~pclee">Patrick P. C.
+Lee</a> if you have any questions.</p>
+</body></html>

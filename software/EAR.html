@@ -1,0 +1,101 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0048)http://ansrlab.cse.cuhk.edu.hk/software/fmsrdip/ -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title> Encoding-Aware Replication for Efficient and Reliable Transition from Replication to Erasure
+    Coding in Clustered File Systems</title>
+<style type="text/css">
+@charset "utf-8";
+body {
+	background-color: #87CEEB;
+}
+
+body, td, th {
+	color: #000;
+}
+
+h1, h2 {
+	font-family: Times New Roman, Times, serif;
+	color: #663300;
+}
+
+h3, h4, h5, h6 {
+	color: #996633;
+}
+
+a {
+  color: #336600;
+}
+</style></head>
+
+<body>
+
+<h1 align="center" class="h1style">
+Encoding-Aware Replication for Efficient and Reliable Transition from Replication to Erasure
+    Coding in Clustered File Systems
+</h1>
+
+<h2>Introduction</h2>
+
+<p>
+To balance performance and storage efficiency, modern clustered file systems
+(CFSes) often first store data with random replication (i.e., distributing
+replicas across randomly selected nodes), followed by encoding the replicated
+data with erasure coding.  We argue that random replication, while being
+commonly used, does not take into account erasure coding and hence will raise
+both performance and availability issues to the subsequent encoding operation.
+We propose <b> encoding-aware replication</b>, which carefully places the
+replicas so as to (i) avoid cross-rack downloads of data blocks during
+encoding, (ii) preserve availability without data relocation after encoding,
+and (iii) maintain load balancing as in random replication.  We implement
+encoding-aware replication on HDFS, and show via testbed experiments that it
+achieves significant encoding throughput gains over random replication.  We
+also show via discrete-event simulations that encoding-aware replication
+remains effective under various parameter choices in a large-scale setting.  We
+further show that encoding-aware replication evenly distributes replicas as in
+random replication.
+</p>
+
+<h2>Publication</h2>
+
+<ul>
+<li>
+Runhui Li, Yuchong Hu, and Patrick P. C. Lee.<br>
+<b>"Enabling Efficient and Reliable Transition from Replication to Erasure
+    Coding for Clustered File Systems."</b><br>
+Proceedings of the 45th Annual IEEE/IFIP International Conference on
+Dependable Systems and Networks (DSN 2015) (Regular paper), Rio de Janeiro,
+Brazil, June 2015.<br> 
+<br>
+</li>
+</ul>
+
+<h2>Download</h2>
+
+<ul>
+<li>Hadoop Release Version 0.1 (To appear in Apr, 2015)
+</li>
+<li>Simulator Version 0.1 (Apr, 2015)
+	<a href="EARSimulatorRelease-b297af8e5bfe.zip">EAR simulator</a> 
+</li>
+</ul>
+
+<h2>People</h2>
+
+<p>
+Encoding-Aware Replication is developed by the 
+<a href="http://ansrlab.cse.cuhk.edu.hk/">Advanced Network and System Research Laboratory</a> 
+in the <a href="http://www.cse.cuhk.edu.hk/">Department of Computer Science and Engineering</a> 
+at the <a href="http://www.cuhk.edu.hk/">Chinese University of Hong Kong</a> (CUHK).
+</p>
+
+  <li>Runhui Li (PhD)</li>
+  <li>Yuchong Hu (Postdoc)</li>
+  <li>Patrick P. C. Lee (Faculty)</li>
+
+<h2>License</h2>
+
+The source code of Encoding-Aware Replication is released under the GNU/GPL license. 
+
+</body>
+</html>
