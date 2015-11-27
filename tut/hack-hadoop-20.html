@@ -1,48 +1,57 @@
+<!DOCTYPE html>
 <html>
-
+<title>Hack Hadoop-20</title>
 <head>
-<title>
-    Hack Hadoop-20
-</title>
+<style>
+body { 
+  font-family: "Monaco"; 
+}
+#wrapper {width: 800px; 
+  margin: 0 auto;}
+
+h1 { 
+  font-family: "Monaco"; 
+  text-align: center;
+}
+
+p { 
+  font-family: "Monaco"; 
+  font-size: 20px;
+}
+</style>
 </head>
+<body>
+<div id="wrapper">
 
-<style type="text/css">
-  <body style="background-color:#bde2fd"> 
-    <div class="wrapper">
-<font face="Monaco" >
-  body{text-align:center;}
-  .wrapper{width:80%;margin:0 auto;text-align:left;}
+  <h1>Hack Hadoop-20</h1>
 
+  <h2>About</h2>
+  
+  This is a tutorial series conducted by Runhui Li.  After the tutorial you should
+  understand:
+  <ol>
+      <li> how Hadoop-20 use erasure coding to perform data recovery, degraded
+      read, and 
+      <li> how we can hack the erasure coding, block placement and MapReduce modules.  
+  </ol>
+  I will dive into the source codes and demonstrate how to hack the source codes
+  to integrate our own system.
+  
+  <!--h2>Materials</h2>
+  <l>
+  <li> Hadoop-20
+  </l-->
+  
+  <h2>Contents</h2>
+  <ol> 
+      <li> The erasure coding routine 
+      <li> Add your own coding scheme: toy example of RDP code + JNI integration
+      <li> Hacking MapReduce scheduler 
+      <li> Hacking the placement scheme 
+      <li> Benchmark and coding style
+  </ol>
 
-<td style="test-align:top;">
-    <h1>Hack Hadoop-20</h1>
-<h2>About</h2>
-
-This is a tutorial series conducted by Runhui Li.  After the tutorial you should
-understand:
-<ol>
-    <li> how Hadoop-20 use erasure coding to perform data recovery, degraded
-    read, and 
-    <li> how we can hack the erasure coding, block placement and MapReduce modules.  
-</ol>
-I will dive into the source codes and demonstrate how to hack the source codes
-to integrate our own system.
-
-<!--h2>Materials</h2>
-<l>
-<li> Hadoop-20
-</l-->
-
-<h2>Contents</h2>
-<ol> 
-    <li> The erasure coding routine 
-    <li> Add your own coding scheme: toy example of RDP code + JNI integration
-    <li> Hacking MapReduce scheduler 
-    <li> Hacking the placement scheme 
-    <li> Benchmark and coding style
-</ol>
-
-
-  </div>
+</div>
 </body>
 </html>
+
